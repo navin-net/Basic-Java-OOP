@@ -26,6 +26,7 @@ public class Car {
     void stop(){
         isDriving = false;
     }
+
     public static void main(String[] args) {
         Car car = new Car();
         car.color ="Red";
