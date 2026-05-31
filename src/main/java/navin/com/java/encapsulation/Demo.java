@@ -1,6 +1,7 @@
 package navin.com.java.encapsulation;
 
 public class Demo {
+
     public static void main(String[] args) {
 
         BankAccount[] bankAccounts = {
@@ -10,9 +11,11 @@ public class Demo {
         };
 
         Bank bank = new Bank("ABA",bankAccounts);
+        System.out.println("[-----------------Send--------------------]");
         bank.displayAccounts();
-        System.out.println("-------------------");
+        System.out.println("[----------------Transfer-----------------]");
         bank.transfer("001","002",50);
         bank.displayAccounts();
+
     }
 }

@@ -11,8 +11,8 @@ public class Index {
 
         System.out.println("Name "+st.getName());
         System.out.println("Age "+st.getAge());
-        System.out.println(book.getId());
-        System.out.println(book.getTitle());
+//        System.out.println(book.getId());
+//        System.out.println(book.getTitle());
 
         book.setTitle("Advanced Java");
 
